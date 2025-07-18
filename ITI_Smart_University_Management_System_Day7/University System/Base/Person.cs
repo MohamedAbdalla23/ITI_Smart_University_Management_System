@@ -2,7 +2,7 @@
 {
     internal abstract class Person
     {
-        private string? name;
+        private string? name;               
         private string? email;
         private string? phone;
 

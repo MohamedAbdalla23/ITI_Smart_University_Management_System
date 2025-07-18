@@ -2,8 +2,8 @@
 {
     internal class Course
     {
-        public string Title { get; set; }
-        public Instructor Instructor { get; set; }
+        public string? Title { get; set; }
+        public Instructor? Instructor { get; set; }
 
         private static Student[] students = new Student[30];
         private static int studentCounter = 0;
